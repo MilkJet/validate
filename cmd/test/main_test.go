@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/coco-look/validate"
+	"github.com/MilkJet/validate"
 )
 
 func TestUrl(t *testing.T) {

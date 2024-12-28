@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coco-look/validate/element"
+	"github.com/MilkJet/validate/element"
 )
 
 type FormatFunc func(f *element.Field) bool

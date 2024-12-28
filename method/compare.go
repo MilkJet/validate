@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/coco-look/validate/element"
+	"github.com/MilkJet/validate/element"
 )
 
 type CompareFunc func(f *element.Field, arg string) bool

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/coco-look/validate/method"
+	"github.com/MilkJet/validate/method"
 
-	"github.com/coco-look/validate/element"
+	"github.com/MilkJet/validate/element"
 )
 
 var DebugModel bool
@@ -76,7 +76,7 @@ func (v *Validate) Parse(f *element.Field) *element.Field {
 		if DebugModel {
 			f.Msg = fmt.Sprintf("field:%s value:%v error:%s", element.SnakeString(f.Name), f.Val, t.GetMsg())
 		} else {
-			f.Msg = fmt.Sprintf("field:%s error:%s", element.SnakeString(f.Name), t.GetMsg())
+			f.Msg = t.GetMsg()
 		}
 
 	}

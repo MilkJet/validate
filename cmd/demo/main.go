@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/coco-look/validate"
-	"github.com/coco-look/validate/element"
+	"github.com/MilkJet/validate"
+	"github.com/MilkJet/validate/element"
 )
 
 func main() {
